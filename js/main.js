@@ -11,17 +11,17 @@ window.onload = function startKlok() {
 
 	TweenMax.set ("#hour", {
 		rotation: posHours + "deg",
-		ease: Elastic.easeOut.config(1, 0.3),
+		ease: Elastic.easeOut.config(0.5, 0.3),
 		transformOrigin:"50% 50%"
 	});
 	TweenMax.set ("#min", {
 		rotation: posMinutes + "deg",
-		ease: Elastic.easeOut.config(1, 0.3),
+		ease: Elastic.easeOut.config(0.5, 0.3),
 		transformOrigin:"50% 50%"
 	});
 	TweenMax.set ("#sec", {
 		rotation: posSeconds + "deg",
-		ease: Elastic.easeOut.config(1, 0.3),
+		ease: Elastic.easeOut.config(0.5, 0.3),
 		transformOrigin:"50% 50%"
 	});
 
