@@ -30,7 +30,6 @@ header h1 {
 }
 
 #greeting {
-  color: white;
   display: flex;
   justify-content: center;
   padding: 30px;
