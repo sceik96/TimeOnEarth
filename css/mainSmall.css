@@ -16,7 +16,10 @@ header {
   background-color: black;
   display: flex;
   justify-content: center;
+}
 
+header h1 {
+  padding: 10px;
 }
 
 .content {
@@ -41,5 +44,5 @@ header {
 }
 
 #clockbg {
-  fill: #DDDDDD;
+  /* fill: #DDDDDD; */
 }
