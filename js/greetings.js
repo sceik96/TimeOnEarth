@@ -11,6 +11,7 @@ function showTime() {
   if (hours >= 0) {
       greeting.innerHTML = 'Goodnight, Martian.';
       Tl1.set(body, {backgroundImage: "url('img/patternNight.png')"});
+      Tl1.set("#greeting", {color: "white"});      
   }
 
   if (hours >= 6) {
@@ -31,6 +32,7 @@ function showTime() {
   if (hours >= 18) {
       greeting.innerHTML = 'Good evening, Martian';
       Tl1.set(body, {backgroundImage: 'url("img/patternNight.png")'});
+      Tl1.set("#greeting", {color: "white"});
   }
 
 }
