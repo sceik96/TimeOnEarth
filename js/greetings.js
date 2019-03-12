@@ -14,14 +14,14 @@ function showTime() {
   }
 
   if (hours >= 6) {
-      greeting.innerHTML = 'Goodmorning, martian';
+      greeting.innerHTML = 'Good morning, Martian';
       Tl1.set(body, {backgroundImage: "url('img/patternDay.png')"});
       Tl1.set("#greeting", {color: "black"});
-      Tl1.set("clockbg", {fill: "white", stroke: "black"});
+      Tl1.set("#clockbg", {fill: "white", stroke: "black"});
   }
 
   if (hours >= 12) {
-      greeting.innerHTML = 'Good afternoon';
+      greeting.innerHTML = 'Good afternoon, Martian';
       Tl1.set(body, {backgroundImage: 'url("img/patternDay.png")'});
       Tl1.set("#greeting", {color: "black"});
       Tl1.set("#clockbg", {fill: "white", stroke: "black"});
@@ -29,7 +29,7 @@ function showTime() {
   }
 
   if (hours >= 18) {
-      greeting.innerHTML = 'Goodevening';
+      greeting.innerHTML = 'Good evening, Martian';
       Tl1.set(body, {backgroundImage: 'url("img/patternNight.png")'});
   }
 
