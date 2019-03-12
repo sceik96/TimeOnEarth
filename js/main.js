@@ -1,3 +1,9 @@
+var tl = new TimelineLite();
+tl.from (".header", 2, {height:"1000px", ease:Bounce.easeOut})
+.from ("#greeting", 0.75, {opacity:"0"})
+.from ("#clock", 0.75, {opacity:"0"});
+
+
 window.onload = function startKlok() {
 
   var today = new Date();
