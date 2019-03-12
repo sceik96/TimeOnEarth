@@ -11,7 +11,8 @@ function showTime() {
   if (hours >= 0) {
       greeting.innerHTML = 'Goodnight, Martian.';
       Tl1.set(body, {backgroundImage: "url('img/patternNight.png')"});
-      Tl1.set("#greeting", {color: "white"});      
+      Tl1.set("#greeting", {color: "white"});
+      Tl1.set("#clockbg", {fill: "#CCC", stroke: "none"});      
   }
 
   if (hours >= 6) {
@@ -26,13 +27,13 @@ function showTime() {
       Tl1.set(body, {backgroundImage: 'url("img/patternDay.png")'});
       Tl1.set("#greeting", {color: "black"});
       Tl1.set("#clockbg", {fill: "white", stroke: "black"});
-
   }
 
   if (hours >= 18) {
       greeting.innerHTML = 'Good evening, Martian';
       Tl1.set(body, {backgroundImage: 'url("img/patternNight.png")'});
       Tl1.set("#greeting", {color: "white"});
+      Tl1.set("#clockbg", {fill: "#CCC", stroke: "none"});
   }
 
 }
